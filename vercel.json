@@ -1,0 +1,9 @@
+{
+    "rewrites": [
+        {
+            "source": "/labs/3/getDate",
+            "destination": "/labs/3/server.js"
+        }
+    ]
+}
+    
