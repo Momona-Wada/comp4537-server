@@ -1,4 +1,9 @@
 {
+    "functions": {
+        "labs/3/server.js": {
+            "runtime": "nodejs22.x"
+        }
+    },
     "rewrites": [
         {
             "source": "/labs/3/getDate",
