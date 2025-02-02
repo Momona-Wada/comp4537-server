@@ -6,7 +6,7 @@ const utils = require("./modules/utils")
 
 const PORT = process.env.PORT || 3000
 
-const filePath = path.resolve(__dirname, "../../locals/en/en.json");
+const filePath = path.resolve(process.cwd(), "locals/en/en.json");
 const messages = JSON.parse(fs.readFileSync(filePath, "utf8"))
 
 module.exports = (req, res) => {
@@ -29,9 +29,9 @@ module.exports = (req, res) => {
     }
 };
 
-if (process.env.NODE_ENV !== 'production') {
-    const PORT = process.env.PORT || 3000;
-    http.createServer(module.exports).listen(PORT, () => {
-        console.log(`Server is running on port ${PORT}`);
-    });
-}
+// if (process.env.NODE_ENV !== 'production') {
+//     const PORT = process.env.PORT || 3000;
+//     http.createServer(module.exports).listen(PORT, () => {
+//         console.log(`Server is running on port ${PORT}`);
+//     });
+// }
