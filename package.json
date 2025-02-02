@@ -17,5 +17,8 @@
     "url": "https://github.com/Momona-Wada/comp4537-server/issues"
   },
   "homepage": "https://github.com/Momona-Wada/comp4537-server#readme",
-  "description": ""
+  "description": "",
+  "engines": {
+    "node": "18.x"
+  }
 }
