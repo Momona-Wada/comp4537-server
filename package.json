@@ -19,6 +19,6 @@
   "homepage": "https://github.com/Momona-Wada/comp4537-server#readme",
   "description": "",
   "engines": {
-    "node": "18.x"
+    "node": "22.x"
   }
 }
