@@ -1,7 +1,7 @@
 {
     "functions": {
         "api/labs/3/server.js": {
-            "runtime": "nodejs22.x"
+            "runtime": "nodejs18.x"
         }
     },
     "rewrites": [
