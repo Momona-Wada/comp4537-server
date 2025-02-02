@@ -7,6 +7,10 @@
         {
             "source": "/labs/3/getDate",
             "destination": "/api/labs/3/server.js"
+        },
+        {
+            "source": "/labs/3/writeFile",
+            "destination": "/api/labs/3/writeFile.js"
         }
     ]
 }
